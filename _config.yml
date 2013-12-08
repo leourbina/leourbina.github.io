@@ -1,7 +1,7 @@
 title:            Leo Urbina
 #'
-tagline:          Aiming Higher
-description:      Describe your website.
+tagline:          Aim Higher
+description:      Aim Higher
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://your-site.com
 
@@ -9,8 +9,8 @@ description:      Describe your website.
 owner:
   name:           Leo Urbina
   avatar:         Leo.jpg
-  bio:            "Describe your self."
-  email:          leo.a.urbina@email.com
+  bio:            Aim Higher
+  email:          me@leourbina.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:
   facebook:
@@ -35,8 +35,6 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
     external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -46,7 +44,7 @@ pygments:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:categories/:year/:month/:day/:title.html
 
 kramdown:
   auto_ids: true
