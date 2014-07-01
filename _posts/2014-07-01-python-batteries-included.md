@@ -94,7 +94,7 @@ Running a python script with the `-m pdb` flag will drop you into the pdb prompt
 
 The python interpreter comes with a profiler bundled in, and can be used via the `-m profile`. Below is a naive (and extremely inefficient) implementation of the fibonacci sequence.
 
-~~~ python
+{% highlight python %}
 def main():
     print(fib(25))
 
@@ -105,7 +105,7 @@ def fib(n):
 
 if __name__ == '__main__':
     main()
-~~~
+{% endhighlight %}
 
 When profiled we get the following output
 
