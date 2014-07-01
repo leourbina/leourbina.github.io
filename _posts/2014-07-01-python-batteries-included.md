@@ -198,7 +198,7 @@ alias jcat='python -m json.tool'
 alias cal='python -m calendar'
 {% endhighlight %}
 
-Hope you find this useful.
+Hope you find these useful.
 
 [^1]: In this post I assume python 3.4, however most of these are available in older versions of python, perhaps under slightly different names.
 
