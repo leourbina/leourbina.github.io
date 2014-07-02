@@ -180,7 +180,7 @@ Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
 
 ## Turtledemo
 
-Last but not least, the turtle module comes with a bundled GUI demo, and examples showcasing what turtle can do. It can be accessed via `python -m turtledemo`, below is a screenshot of one of the examples:
+Last but not least, since Python 3 the turtle module comes with a bundled GUI demo, with examples showcasing what turtle is capable of. It can be accessed via `python -m turtledemo`, and it lets the user choose from several examples that render some pretty cool looking visualizations:
 
 <figure>
     <a href="https://s3.amazonaws.com/com.leourbina.public/turtledemo.png"><img src="https://s3.amazonaws.com/com.leourbina.public/turtledemo.png"></a>
@@ -200,7 +200,7 @@ alias jcat='python -m json.tool'
 alias cal='python -m calendar'
 {% endhighlight %}
 
-Hope you find these useful.
+Hope you find these useful. Oh, and don't forget about `python -m antigravity`!
 
 
 
