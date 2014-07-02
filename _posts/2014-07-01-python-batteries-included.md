@@ -26,7 +26,7 @@ Attending this year's PyCon made me reflect on the versatility of Python. It is 
 A lesser known feature of the Python interpreter is the capacity to run a module as a script by passing it the `-m` flag. Using this flag a fair amount of modules in the standard libraries expose functionality by having a `if __name__ == '__main__'` line at the end of the file. Unfortunately, as far as I know, there is little documentation on what modules offer functionality this way, resulting in very few people knowing the full extent of the functionality that the python standard library ships with. In this post I would like to highlight some of the modules I have found most useful and/or entertaining. Some of the modules described provide a substantial amount of functionality and could do with a post of their own to explain the full extent of their features.
 
 ## Python 3.4
-In this post I assume you are using python 3.4 (I assume you are, right?), nonetheless, most of the modules described are available in older versions of python, perhaps under slightly different names (e.g. http.server used to be SimpleHTTPServer). With that out of the way, lets start:
+In this post I assume you are using python 3.4 (you are, right?), nonetheless, most of the modules described are available in older versions of python, perhaps under slightly different names (e.g. http.server used to be SimpleHTTPServer). With that out of the way, lets start:
 
 ## Virtual Environments: venv
 
