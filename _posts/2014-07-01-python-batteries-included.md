@@ -23,8 +23,10 @@ Attending this year's PyCon made me reflect on the versatility of Python. It is 
 
 ## Executable modules
 
-A lesser known feature of the Python interpreter is the capacity to run a module as a script by passing it the `-m` flag. Using this flag a fair amount of modules in the standard libraries expose functionality by having a `if __name__ == '__main__'` line at the end of the file. Unfortunately, as far as I know, there is little documentation on what modules offer functionality this way, resulting in very few people knowing the full extent of the functionality that the python standard library ships with. In this post I would like to highlight some of the modules I have found most useful and/or entertaining[^1]. Some of the modules described provide a substantial amount of functionality and could do with a post of their own to explain the full extent of their features.
+A lesser known feature of the Python interpreter is the capacity to run a module as a script by passing it the `-m` flag. Using this flag a fair amount of modules in the standard libraries expose functionality by having a `if __name__ == '__main__'` line at the end of the file. Unfortunately, as far as I know, there is little documentation on what modules offer functionality this way, resulting in very few people knowing the full extent of the functionality that the python standard library ships with. In this post I would like to highlight some of the modules I have found most useful and/or entertaining. Some of the modules described provide a substantial amount of functionality and could do with a post of their own to explain the full extent of their features.
 
+###Disclaimer
+In this post I assume python 3.4, however most of the modules described are available in older versions of python, perhaps under slightly different names (e.g. http.server used to be SimpleHTTPServer).
 
 ## Virtual Environments: venv
 
@@ -200,5 +202,5 @@ alias cal='python -m calendar'
 
 Hope you find these useful.
 
-[^1]: In this post I assume python 3.4, however most of these are available in older versions of python, perhaps under slightly different names.
+
 
