@@ -133,7 +133,7 @@ Which could perhaps help us figure out the outrageous number of calls being made
 
 ## Docs with pydoc
 
-Accessing the built-in python documentation for a specific module is as easy as typing `python -m pydoc my.module`. Also, running `python -m pydoc -b` will start a webserver serving the docs and open a browser window pointing to it. The web version of the docs could use a face lift, but nonetheless this can come in handy, specially when developing without an internet connection, traveling, etc.
+Accessing the built-in python documentation for a specific module is as easy as typing `python -m pydoc my.module`. Also, running `python -m pydoc -b` will start a webserver serving the docs and open a browser window pointing to it. The web version of the docs could use a face lift, but can nonetheless come in handy, specially when developing without an internet connection, e.g. in a flight, train, etc.
 
 ## Calendar
 
